@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+
+
+.top{
+    margin-top:90px;
+}
+
+
+  .mailbox {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .mailbox-header {
+    background-color: #126A10;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .mailbox-content {
+    padding: 20px;
+  }
+  .email-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .email-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .email-item:hover {
+    background-color: #f1f1f1;
+  }
+  .email-item .subject {
+    font-weight: bold;
+  }
+  .email-item .date {
+    color: #999;
+    font-size: 0.9em;
+  }
+  .email-view {
+    display: none;
+    flex-direction: column;
+  }
+  .email-view.active {
+    display: flex;
+  }
+  .email-view .content {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #fdfdfd;
+  }
+  .actions {
+    margin-top: 20px;
+  }
+  .actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  .actions button.delete {
+    background-color: #d9534f;
+    color: white;
+  }
+  .actions button.delete:hover {
+    background-color: #c9302c;
+  }
+  .actions button.back {
+    background-color: #126A10;
+    color: white;
+  }
+  .actions button.back:hover {
+    background-color: #126A10;
+  }
