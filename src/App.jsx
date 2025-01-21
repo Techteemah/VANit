@@ -7,7 +7,7 @@ import Footer from './pages/Footer.jsx';
 import Home from './pages/Home/Home.jsx';
 import Team from './pages/Team.jsx';
 import OptionPage from './pages/OptionPage.jsx';
-import OwnVan from './pages/ownVan.jsx';
+import OwnVan from './pages/OwnVan.jsx';
 import NeedVan from './pages/NeedVan.jsx';
 import SignUp from './Component/SignUp.jsx';
 import Terms from './Component/Terms.jsx';
