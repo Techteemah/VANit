@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./dash.css";
 import "../script2.js"
-import './Mailbox.css'; 
+import './MailBox.css'; 
 import dee from "../../public/man.png"
 import { Link } from "react-router-dom";
 
